@@ -5,15 +5,15 @@
  * @str: string
  */
 
-void _puts(char *str)
+void _puts(char *c)
 {
 	int len = 0;
 
-	while (str[len] != '\0')
+	while (char[len] != '\0')
 	{
-		_putchar(str[len]);
+		_putchar(char[len]);
 		len++;
 	}
 	
-	_putchar('\n');
+	_putchar(int '\n');
 }
